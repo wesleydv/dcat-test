@@ -13,7 +13,7 @@
   dc:license <http://www.opendefinition.org/licenses/cc-zero> ;
   dc:publisher <https://digipolis.gent> ;
   dc:modified "2017-10-04T07:42:30+0000" ;
-  dcat:dataset <https://ipsum.stad.gent/toerisme/jackson> ;
+  dcat:dataset <https://ipsum.stad.gent/toerisme/jackson> .
 
 <https://ipsum.stad.gent/toerisme/jackson>
   a dcat:Dataset ;
