@@ -1,0 +1,21 @@
+<https://ipsum.stad.gent/4/toerisme/jackson>
+  a dcat:Dataset ;
+  dc:title "Samuel L. Jackson" ;
+  dc:description """My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand?""" ;
+  dc:identifier "toerisme/jackson" ;
+  dc:issued "1948-12-21T12:01:29+0000" ;
+  dc:modified "2017-10-04T07:42:30+0000" ;
+  dcat:landingPage <https://en.wikipedia.org/wiki/Samuel_L._Jackson> ;
+  dc:date "2017-06-09" ;
+  dc:language <http://lexvo.org/id/iso639-3/nld> ;
+  dcat:theme <http://ns.thedatatank.com/dcat/themes#Tourism> ;
+  dcat:distribution <https://datatankqa.stad.gent/4/toerisme/gentsefeestenevents.json> .
+
+<http://lexvo.org/id/iso639-3/nld> a dc:LinguisticSystem .
+<https://ipsum.stad.gent/4/toerisme/jackson.filmography>
+  a dcat:Distribution ;
+  dcat:accessURL <http://www.imdb.com/name/nm0000168/> ;
+  dc:title "Samuel L. Jackson Filmography" ;
+  dc:description "A filmography feed of https://ipsum.stad.gent/4/toerisme/jackson" ;
+  dc:modified "2017-10-04T07:42:30+0000" ;
+  dc:license <http://overheid.vlaanderen.be/hergebruik/licenties/v1-0/html/modellicentie-gratis-hergebruik> .
