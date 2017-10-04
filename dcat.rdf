@@ -1,4 +1,21 @@
-<https://ipsum.stad.gent/4/toerisme/jackson>
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://ipsum.stad.gent>
+  a dcat:Catalog ;
+  dc:title "Ipsum" ;
+  dc:description "A catalog of datasets published by The Ipsum." ;
+  dc:issued "2017-10-04T07:42:30+0000" ;
+  dc:language <http://lexvo.org/id/iso639-3/eng> ;
+  foaf:homepage <https://ipsum.stad.gent> ;
+  dc:license <http://www.opendefinition.org/licenses/cc-zero> ;
+  dc:publisher <https://digipolis.gent> ;
+  dc:modified "2017-10-04T07:42:30+0000" ;
+  dcat:dataset <https://ipsum.stad.gent/toerisme/jackson> ;
+
+<https://ipsum.stad.gent/toerisme/jackson>
   a dcat:Dataset ;
   dc:title "Samuel L. Jackson" ;
   dc:description """My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand?""" ;
@@ -9,13 +26,14 @@
   dc:date "2017-06-09" ;
   dc:language <http://lexvo.org/id/iso639-3/nld> ;
   dcat:theme <http://ns.thedatatank.com/dcat/themes#Tourism> ;
-  dcat:distribution <https://datatankqa.stad.gent/4/toerisme/gentsefeestenevents.json> .
+  dcat:distribution <https://ipsum.stad.gent/toerisme/jackson.filmography> .
 
 <http://lexvo.org/id/iso639-3/nld> a dc:LinguisticSystem .
-<https://ipsum.stad.gent/4/toerisme/jackson.filmography>
+
+<https://ipsum.stad.gent/toerisme/jackson.filmography>
   a dcat:Distribution ;
   dcat:accessURL <http://www.imdb.com/name/nm0000168/> ;
   dc:title "Samuel L. Jackson Filmography" ;
-  dc:description "A filmography feed of https://ipsum.stad.gent/4/toerisme/jackson" ;
+  dc:description "A filmography feed of https://ipsum.stad.gent/toerisme/jackson" ;
   dc:modified "2017-10-04T07:42:30+0000" ;
   dc:license <http://overheid.vlaanderen.be/hergebruik/licenties/v1-0/html/modellicentie-gratis-hergebruik> .
