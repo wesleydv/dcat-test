@@ -26,11 +26,11 @@
   dc:date "2017-06-09" ;
   dc:language <http://lexvo.org/id/iso639-3/nld> ;
   dcat:theme <http://ns.thedatatank.com/dcat/themes#Tourism> ;
-  dcat:distribution <https://ipsum.stad.gent/toerisme/jackson.filmography02> .
+  dcat:distribution <https://ipsum.stad.gent/toerisme/jackson.filmography03> .
 
 <http://lexvo.org/id/iso639-3/nld> a dc:LinguisticSystem .
 
-<https://ipsum.stad.gent/toerisme/jackson.filmography02>
+<https://ipsum.stad.gent/toerisme/jackson.filmography03>
   a dcat:Distribution ;
   dcat:accessURL <http://www.imdb.com/name/nm0000168/> ;
   dc:title "Samuel L. Jackson Filmography" ;
