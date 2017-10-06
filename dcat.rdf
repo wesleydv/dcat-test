@@ -32,7 +32,7 @@
 
 <https://ipsum.stad.gent/toerisme/jackson.filmography04>
   a dcat:Distribution ;
-  dcat:accessURL <http://www.imdb.com/name/nm0000168/> ;
+  dcat:accessURL <http://www.imdb.com/name/nm0000169/> ;
   dc:title "Samuel L. Jackson Filmography" ;
   dc:description "A filmography feed of https://ipsum.stad.gent/toerisme/jackson" ;
   dc:modified "2017-10-04T07:42:30+0000" ;
