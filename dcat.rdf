@@ -27,13 +27,26 @@
   dc:language <http://lexvo.org/id/iso639-3/nld> ;
   dcat:theme <http://ns.thedatatank.com/dcat/themes#Tourism> ;
   dcat:distribution <https://ipsum.stad.gent/toerisme/jackson.filmography04> .
+ 
+  <https://ipsum.stad.gent/toerisme/malkovich>
+  a dcat:Dataset ;
+  dc:title "John Gavin Malkovich" ;
+  dc:description """ When did ignorance become a point of view?""" ;
+  dc:identifier "toerisme/jackson" ;
+  dc:issued "1948-12-21T12:01:29+0000" ;
+  dc:modified "2017-10-04T07:42:30+0000" ;
+  dcat:landingPage <https://en.wikipedia.org/wiki/John_Malkovich> ;
+  dc:date "2017-06-09" ;
+  dc:language <http://lexvo.org/id/iso639-3/nld> ;
+  dcat:theme <http://ns.thedatatank.com/dcat/themes#Tourism> ;
+  dcat:distribution <https://ipsum.stad.gent/toerisme/malkovich.filmography> .
 
 <http://lexvo.org/id/iso639-3/nld> a dc:LinguisticSystem .
 
-<https://ipsum.stad.gent/toerisme/jackson.filmography04>
+<https://ipsum.stad.gent/toerisme/malkovich.filmography>
   a dcat:Distribution ;
-  dcat:accessURL <http://www.imdb.com/name/nm0000169/> ;
-  dc:title "Samuel L. Jackson Filmography" ;
-  dc:description "A filmography feed of https://ipsum.stad.gent/toerisme/jackson" ;
+  dcat:accessURL <http://www.imdb.com/name/nm0000518/> ;
+  dc:title "John Malcovich Filmography" ;
+  dc:description "A filmography feed of https://ipsum.stad.gent/toerisme/malkovich" ;
   dc:modified "2017-10-04T07:42:30+0000" ;
   dc:license <http://overheid.vlaanderen.be/hergebruik/licenties/v1-0/html/modellicentie-gratis-hergebruik> .
