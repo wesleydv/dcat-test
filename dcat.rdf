@@ -26,6 +26,7 @@
   dc:date "2017-06-09" ;
   dc:language <http://lexvo.org/id/iso639-3/nld> ;
   dcat:theme <http://ns.thedatatank.com/dcat/themes#Tourism> ;
+  dcat:accrualPeriodicity <http://purl.org/cld/freq/triennial> ;
   dcat:distribution <https://ipsum.stad.gent/toerisme/jackson.filmography> .
  
 <https://ipsum.stad.gent/toerisme/malkovich>
