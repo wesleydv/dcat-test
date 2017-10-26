@@ -2,6 +2,7 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix freq: <http://purl.org/cld/freq/> .
 
 <https://ipsum.stad.gent>
   a dcat:Catalog ;
@@ -26,7 +27,7 @@
   dc:date "2017-06-09" ;
   dc:language <http://lexvo.org/id/iso639-3/nld> ;
   dcat:theme <http://ns.thedatatank.com/dcat/themes#Tourism> ;
-  dcat:accrualPeriodicity <http://purl.org/cld/freq/triennial> ;
+  dcat:accrualPeriodicity freq:triennial ;
   dcat:distribution <https://ipsum.stad.gent/toerisme/jackson.filmography> .
  
 <https://ipsum.stad.gent/toerisme/malkovich>
